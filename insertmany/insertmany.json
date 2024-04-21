@@ -1,0 +1,74 @@
+db.grades.insertMany([
+  {
+    student_id: 345678,
+    products: [
+      {
+        name: "kriti",
+        city:"pujab",
+        type: "quiz",
+        score: 800,
+      },
+      {
+        type: "homework",
+        score: 700,
+      },
+      {
+        type: "work",
+        score: 676,
+      },
+      {
+        type: "exam",
+        score: 70,
+      },
+    ],
+    class_id: 540,
+  },
+  {
+    student_id: 888999,
+    products: [
+      {
+        name: "krishnaveni",
+        city:"Bhilai",
+        type: "exam",
+        score: 83,
+      },
+      {
+        type: "quiz",
+        score: 59,
+      },
+      {
+        type: "quiz",
+        score: 72,
+      },
+      {
+        type: "quiz",
+        score: 67,
+      },
+    ],
+    class_id: 580,
+  },
+  {
+    student_id: 113344,
+    products: [
+      {
+        name: "kalyani",
+        city:"Haryana",
+        type: "exam",
+        score: 45,
+      },
+      {
+        type: "homework",
+        score: 39,
+      },
+      {
+        type: "quiz",
+        score: 40,
+      },
+      {
+        type: "homework",
+        score: 88,
+      },
+    ],
+    class_id: 591,
+  },
+])
