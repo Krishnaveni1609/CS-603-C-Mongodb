@@ -1,0 +1,7 @@
+#greaterthanequalto.js
+
+#1
+db.grades.find({ "products.type": { $gte: 'exam'  } })
+
+#2
+db.grades.find({ "products.score": { $gte: 40  } })
