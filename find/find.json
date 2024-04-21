@@ -1,0 +1,2 @@
+#find.js
+db.grades.find({ _id: ObjectId('6624359dc5a179ef7550b68f') })
