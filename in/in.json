@@ -1,0 +1,5 @@
+#in.js
+
+db.grades.find({ student_id: { $in: [546789, 223344] } })
+
+db.grades.find({ _id: { $in: [ObjectId('6624359dc5a179ef7550b690'), ObjectId('6624359dc5a179ef7550b68e')] } })

@@ -1,0 +1,3 @@
+#or.js
+
+db.listingsAndReviews.find({$or: [{amenities: "Hangers"}, {amenities: "Room-darkening shades"}]});

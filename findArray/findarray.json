@@ -1,0 +1,4 @@
+
+#findArray.js
+
+db.listingsAndReviews.find({amenities: "Shampoo"});

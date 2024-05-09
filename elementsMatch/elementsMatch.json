@@ -1,0 +1,2 @@
+#elementsMatch.js
+db.listingsAndReviews.find({amenities: {$elemMatch: {$eq: "Coffee maker"}}});

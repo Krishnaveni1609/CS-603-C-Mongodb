@@ -1,0 +1,4 @@
+
+#lesserThan.js
+
+db.grades.find({ "products.score": { $lt: 40  } })

@@ -1,0 +1,7 @@
+#andoror.js
+db.routes.find({
+  $and: [
+    {$or: [{dst_airport: "SVX"}, {src_airport: "OVB"}]},
+    {$or: [{"airline.alias": 'AA'}, {airplane: 738}]},
+  ],
+});

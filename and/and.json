@@ -1,0 +1,2 @@
+#and.js
+db.listingsAndReviews.find({$and: [{amenities: "Smoke detector"}, {amenities: "Laptop friendly workspace"}]});

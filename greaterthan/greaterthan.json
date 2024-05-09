@@ -1,0 +1,3 @@
+#greatThan.js
+
+db.grades.find({ "products.score": { $gt:59  } })
