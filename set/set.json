@@ -1,0 +1,5 @@
+
+db.podcasts.findOne({title: "The MongoDB Podcast"});
+db.podcasts.findOne({_id: ObjectId("663ec384b5f2524462a574b2")});
+
+db.podcasts.updateOne({_id: ObjectId("663ec384b5f2524462a574b2")},{$set:{subscribers:98562}})

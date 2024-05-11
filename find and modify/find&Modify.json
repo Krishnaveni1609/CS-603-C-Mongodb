@@ -1,0 +1,5 @@
+db.podcasts.findAndModify({
+  query: {_id: ObjectId('663dc558f1db0bc35cd710bc')},
+  update: {$inc: {downloads: 1}},
+  new: true,
+});

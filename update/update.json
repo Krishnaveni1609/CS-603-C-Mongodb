@@ -1,0 +1,6 @@
+db.podcasts.updateOne(
+  {title: "Heartbreak"},
+  {$set: {topics: ["databases", "MongoDB"]}}
+);
+
+db.podcasts.findOne({title: "Heartbreak"});
