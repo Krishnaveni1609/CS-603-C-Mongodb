@@ -1,0 +1,3 @@
+#Compound Index
+
+db.students.createIndex({studentAge: 1, studentName:1})

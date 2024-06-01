@@ -1,0 +1,3 @@
+# Multi Key Index
+
+db.students.createIndex({skillsets:1})

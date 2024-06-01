@@ -1,0 +1,22 @@
+#COMPOUND INDEXING
+
+#1
+db.products.insertMany([
+{ name: "Smartphone", category: "Electronics", price: 599.99, brand: "Samsung" },
+{ name: "Laptop", category: "Electronics", price: 999.99, brand: "Dell" },
+{ name: "Headphones", category: "Electronics", price: 149.99, brand: "Sony" },
+{ name: "Running Shoes", category: "Sports", price: 89.99, brand: "Nike" },
+{ name: "Soccer Ball", category: "Sports", price: 19.99, brand: "Adidas" }
+])
+
+
+#2
+db.products.createIndex({ category: 1, price: 1})
+
+
+#3
+db.products.find({ category: "Electronics", price: { $lt: 500 } })
+
+
+#4
+db.students.createIndex({studentAge: 1, studentName:1})

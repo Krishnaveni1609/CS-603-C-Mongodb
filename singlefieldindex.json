@@ -1,0 +1,4 @@
+
+#Single index
+
+db.students.createIndex({studentsId:1})
