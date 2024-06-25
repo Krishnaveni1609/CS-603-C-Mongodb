@@ -1,0 +1,3 @@
+
+db.birds.find({conservationStatus:"Least Concern"})
+db.birds.deleteMany({conservationStatus:"Least Concern"})

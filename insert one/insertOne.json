@@ -1,0 +1,7 @@
+db.books.insertOne({
+  title:"Geeta",
+  ISBN: "200000000",
+  thumbnailUrl: "",
+  publicationDate: ISODate("2019-01-01T00:00:00.000Z"),
+  authors: ["Ada Lovelace"],
+});

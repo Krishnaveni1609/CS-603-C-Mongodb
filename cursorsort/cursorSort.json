@@ -1,0 +1,16 @@
+
+db.listingsAndReviews.find({room_type: "Entire home/apt"}).sort({name: 1});
+
+db.listingsAndReviews.find({room_type: "Entire home/apt"}).sort({name: -1});
+
+
+db.listingsAndReviews.find({room_type: "Entire home/apt"}, {name: 1}).sort({name: 1});
+db.listingsAndReviews.find({room_type: "Entire home/apt"}, {name: -1}).sort({name: -1});
+
+
+db.listingsAndReviews
+  .find({room_type: "Entire home/apt"}, {property_type: "House"})
+  .sort({name: -1})
+  .limit(3);
+
+
